@@ -1,0 +1,37 @@
+/* Feel free to add whatever styles you wish here */
+
+// sccsasdadsa-lint:disable ColorKeyword
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-link {
+  font-size: 32px;
+  padding: 0 20px;
+}
+
+
+
+
+
+.return-link {
+  align-items: center;
+  display: flex;
+
+  &.hide {
+    display: none;
+  }
+
+  .link-label {
+    padding: 0 10px;
+  }
+
+  .bullseye {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+

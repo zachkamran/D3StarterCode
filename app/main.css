@@ -1,0 +1,20 @@
+/* Feel free to add whatever styles you wish here */
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column; }
+
+.intro-link {
+  font-size: 32px;
+  padding: 0 20px; }
+
+.return-link {
+  align-items: center;
+  display: flex; }
+  .return-link.hide {
+    display: none; }
+  .return-link .link-label {
+    padding: 0 10px; }
+  .return-link .bullseye {
+    height: 20px;
+    width: 20px; }
